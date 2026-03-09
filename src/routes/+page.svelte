@@ -27,16 +27,36 @@
 </div>
 
 <style>
+  :global(html) {
+    scroll-behavior: smooth;
+  }
+
   :global(body) {
     margin: 0;
     font-family:
-      Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     background: #08111f;
     color: white;
   }
 
   :global(*) {
     box-sizing: border-box;
+  }
+
+  :global(h1),
+  :global(h2),
+  :global(h3) {
+    font-family: 'Playfair Display', Georgia, serif;
+    letter-spacing: -0.02em;
+  }
+
+  :global(p),
+  :global(a),
+  :global(button),
+  :global(input),
+  :global(label) {
+    font-family:
+      'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
   .page {
