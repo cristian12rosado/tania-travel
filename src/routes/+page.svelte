@@ -27,18 +27,6 @@
 </div>
 
 <style>
-  :global(body) {
-    margin: 0;
-    font-family:
-      Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    background: #08111f;
-    color: white;
-  }
-
-  :global(*) {
-    box-sizing: border-box;
-  }
-
   .page {
     min-height: 100vh;
     background:

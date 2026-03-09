@@ -1,0 +1,53 @@
+/* FONT IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
+
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #08111f;
+  color: white;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+  letter-spacing: -0.02em;
+  margin: 0;
+}
+
+/* TEXT */
+p {
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* LINKS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* BUTTONS */
+button {
+  font-family: 'Inter', sans-serif;
+}
+
+/* GLOBAL CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
