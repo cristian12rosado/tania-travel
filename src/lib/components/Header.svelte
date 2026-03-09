@@ -4,7 +4,7 @@
 
 <header class="header">
   <div class="container">
-    <div class="brand">Aether Travel</div>
+    <div class="brand">Travesia Travel by Tania Tavarez</div>
 
     <nav>
       {#each navItems as item}
