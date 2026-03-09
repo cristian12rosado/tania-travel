@@ -67,22 +67,27 @@
   .eyebrow {
     color: #d4a373;
     text-transform: uppercase;
-    letter-spacing: 0.18em;
-    font-size: 0.82rem;
+    letter-spacing: 0.22em;
+    font-size: 0.78rem;
+    font-weight: 600;
     margin-bottom: 1rem;
   }
 
   h1 {
-    font-size: clamp(2.8rem, 6vw, 5.5rem);
-    line-height: 0.98;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(3.2rem, 6vw, 5.8rem);
+    line-height: 0.96;
+    font-weight: 700;
+    letter-spacing: -0.03em;
     margin: 0 0 1rem;
     max-width: 900px;
   }
 
   .subtext {
     max-width: 640px;
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1.05rem;
+    line-height: 1.75;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.88);
     margin-bottom: 1.5rem;
   }
@@ -99,7 +104,8 @@
     text-decoration: none;
     padding: 0.95rem 1.25rem;
     border-radius: 999px;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.01em;
     transition: 0.25s ease;
   }
 

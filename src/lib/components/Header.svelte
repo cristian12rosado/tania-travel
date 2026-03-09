@@ -37,9 +37,11 @@
   }
 
   .brand {
-    font-size: 1.25rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.05rem;
     font-weight: 700;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
   }
 
   nav {
@@ -49,9 +51,10 @@
   }
 
   nav a {
-    color: rgba(255, 255, 255, 0.78);
+    color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     font-size: 0.95rem;
+    font-weight: 500;
     transition: 0.25s ease;
   }
 
