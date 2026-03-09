@@ -1,3 +1,26 @@
+:root {
+    --navy: #08111f;
+    --navy-light: #0d1b2a;
+    --gold: #d4a373;
+    --white-soft: rgba(255, 255, 255, 0.85);
+  }
+
+body {
+background: var(--navy);
+color: var(--white-soft);
+}
+
+section {
+    background: var(--navy-light);
+  }
+
+.primary {
+background: var(--gold);
+color: var(--navy);
+}
+
+
+
 /* FONT IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
 

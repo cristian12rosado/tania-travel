@@ -27,8 +27,6 @@
 </div>
 
 <style>
-<<<<<<< HEAD
-=======
   :global(html) {
     scroll-behavior: smooth;
   }
@@ -61,7 +59,6 @@
       'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   }
 
->>>>>>> 2841ee0be02d729a3f0e468e09838ad72e9e4a1b
   .page {
     min-height: 100vh;
     background:
